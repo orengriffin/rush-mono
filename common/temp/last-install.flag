@@ -1,0 +1,6 @@
+{
+  "node": "12.16.1",
+  "packageManager": "pnpm",
+  "packageManagerVersion": "4.14.4",
+  "storePath": "/Users/orengriffin/dev/mono-repo-rush-01/common/temp/pnpm-store"
+}
