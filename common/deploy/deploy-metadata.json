@@ -1,0 +1,459 @@
+{
+  "scenarioName": "deploy.json",
+  "mainProjectName": "app-core",
+  "projects": [
+    {
+      "path": "app-core"
+    },
+    {
+      "path": "logger"
+    }
+  ],
+  "links": [
+    {
+      "kind": "folderLink",
+      "linkPath": "app-core/node_modules/logger",
+      "targetPath": "logger"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/node_modules/@sentry/core",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/@sentry/core/5.29.2/node_modules/@sentry/core"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/node_modules/@sentry/hub",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/@sentry/hub/5.29.2/node_modules/@sentry/hub"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/node_modules/@sentry/minimal",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/@sentry/minimal/5.29.2/node_modules/@sentry/minimal"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/node_modules/@sentry/tracing",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/@sentry/tracing/5.29.2/node_modules/@sentry/tracing"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/node_modules/@sentry/types",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/@sentry/types/5.29.2/node_modules/@sentry/types"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/node_modules/@sentry/utils",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/@sentry/utils/5.29.2/node_modules/@sentry/utils"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/node_modules/agent-base",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/agent-base/6.0.2/node_modules/agent-base"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/node_modules/balanced-match",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/balanced-match/1.0.0/node_modules/balanced-match"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/node_modules/brace-expansion",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/brace-expansion/1.1.11/node_modules/brace-expansion"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/node_modules/concat-map",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/concat-map/0.0.1/node_modules/concat-map"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/node_modules/cookie",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/cookie/0.4.1/node_modules/cookie"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/node_modules/debug",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/debug/4.3.1/node_modules/debug"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/node_modules/dtrace-provider",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/dtrace-provider/0.8.8/node_modules/dtrace-provider"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/node_modules/glob",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/glob/6.0.4/node_modules/glob"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/node_modules/https-proxy-agent",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/https-proxy-agent/5.0.0/node_modules/https-proxy-agent"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/node_modules/inflight",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/inflight/1.0.6/node_modules/inflight"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/node_modules/inherits",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/inherits/2.0.4/node_modules/inherits"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/node_modules/lru_map",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/lru_map/0.3.3/node_modules/lru_map"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/node_modules/minimatch",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/minimatch/3.0.4/node_modules/minimatch"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/node_modules/minimist",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/minimist/1.2.5/node_modules/minimist"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/node_modules/mkdirp",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/mkdirp/0.5.5/node_modules/mkdirp"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/node_modules/moment",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/moment/2.29.1/node_modules/moment"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/node_modules/ms",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/ms/2.1.2/node_modules/ms"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/node_modules/mv",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/mv/2.1.1/node_modules/mv"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/node_modules/nan",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/nan/2.14.2/node_modules/nan"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/node_modules/ncp",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/ncp/2.0.0/node_modules/ncp"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/node_modules/once",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/once/1.4.0/node_modules/once"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/node_modules/path-is-absolute",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/path-is-absolute/1.0.1/node_modules/path-is-absolute"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/node_modules/rimraf",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/rimraf/2.4.5/node_modules/rimraf"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/node_modules/safe-json-stringify",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/safe-json-stringify/1.2.0/node_modules/safe-json-stringify"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/node_modules/tslib",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/tslib/1.14.1/node_modules/tslib"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/node_modules/wrappy",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/wrappy/1.0.2/node_modules/wrappy"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/@sentry/core/5.29.2/node_modules/@sentry/hub",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/@sentry/hub/5.29.2/node_modules/@sentry/hub"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/@sentry/core/5.29.2/node_modules/@sentry/minimal",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/@sentry/minimal/5.29.2/node_modules/@sentry/minimal"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/@sentry/core/5.29.2/node_modules/@sentry/types",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/@sentry/types/5.29.2/node_modules/@sentry/types"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/@sentry/core/5.29.2/node_modules/@sentry/utils",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/@sentry/utils/5.29.2/node_modules/@sentry/utils"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/@sentry/core/5.29.2/node_modules/tslib",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/tslib/1.14.1/node_modules/tslib"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/@sentry/hub/5.29.2/node_modules/@sentry/types",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/@sentry/types/5.29.2/node_modules/@sentry/types"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/@sentry/hub/5.29.2/node_modules/@sentry/utils",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/@sentry/utils/5.29.2/node_modules/@sentry/utils"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/@sentry/hub/5.29.2/node_modules/tslib",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/tslib/1.14.1/node_modules/tslib"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/@sentry/minimal/5.29.2/node_modules/@sentry/hub",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/@sentry/hub/5.29.2/node_modules/@sentry/hub"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/@sentry/minimal/5.29.2/node_modules/@sentry/types",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/@sentry/types/5.29.2/node_modules/@sentry/types"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/@sentry/minimal/5.29.2/node_modules/tslib",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/tslib/1.14.1/node_modules/tslib"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/@sentry/node/5.29.2/node_modules/@sentry/core",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/@sentry/core/5.29.2/node_modules/@sentry/core"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/@sentry/node/5.29.2/node_modules/@sentry/hub",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/@sentry/hub/5.29.2/node_modules/@sentry/hub"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/@sentry/node/5.29.2/node_modules/@sentry/tracing",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/@sentry/tracing/5.29.2/node_modules/@sentry/tracing"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/@sentry/node/5.29.2/node_modules/@sentry/types",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/@sentry/types/5.29.2/node_modules/@sentry/types"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/@sentry/node/5.29.2/node_modules/@sentry/utils",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/@sentry/utils/5.29.2/node_modules/@sentry/utils"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/@sentry/node/5.29.2/node_modules/cookie",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/cookie/0.4.1/node_modules/cookie"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/@sentry/node/5.29.2/node_modules/https-proxy-agent",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/https-proxy-agent/5.0.0/node_modules/https-proxy-agent"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/@sentry/node/5.29.2/node_modules/lru_map",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/lru_map/0.3.3/node_modules/lru_map"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/@sentry/node/5.29.2/node_modules/tslib",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/tslib/1.14.1/node_modules/tslib"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/@sentry/tracing/5.29.2/node_modules/@sentry/hub",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/@sentry/hub/5.29.2/node_modules/@sentry/hub"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/@sentry/tracing/5.29.2/node_modules/@sentry/minimal",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/@sentry/minimal/5.29.2/node_modules/@sentry/minimal"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/@sentry/tracing/5.29.2/node_modules/@sentry/types",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/@sentry/types/5.29.2/node_modules/@sentry/types"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/@sentry/tracing/5.29.2/node_modules/@sentry/utils",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/@sentry/utils/5.29.2/node_modules/@sentry/utils"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/@sentry/tracing/5.29.2/node_modules/tslib",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/tslib/1.14.1/node_modules/tslib"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/@sentry/utils/5.29.2/node_modules/@sentry/types",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/@sentry/types/5.29.2/node_modules/@sentry/types"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/@sentry/utils/5.29.2/node_modules/tslib",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/tslib/1.14.1/node_modules/tslib"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/agent-base/6.0.2/node_modules/debug",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/debug/4.3.1/node_modules/debug"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/brace-expansion/1.1.11/node_modules/balanced-match",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/balanced-match/1.0.0/node_modules/balanced-match"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/brace-expansion/1.1.11/node_modules/concat-map",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/concat-map/0.0.1/node_modules/concat-map"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/bunyan/1.8.15/node_modules/dtrace-provider",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/dtrace-provider/0.8.8/node_modules/dtrace-provider"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/bunyan/1.8.15/node_modules/moment",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/moment/2.29.1/node_modules/moment"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/bunyan/1.8.15/node_modules/mv",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/mv/2.1.1/node_modules/mv"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/bunyan/1.8.15/node_modules/safe-json-stringify",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/safe-json-stringify/1.2.0/node_modules/safe-json-stringify"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/debug/4.3.1/node_modules/ms",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/ms/2.1.2/node_modules/ms"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/dtrace-provider/0.8.8/node_modules/nan",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/nan/2.14.2/node_modules/nan"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/glob/6.0.4/node_modules/inflight",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/inflight/1.0.6/node_modules/inflight"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/glob/6.0.4/node_modules/inherits",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/inherits/2.0.4/node_modules/inherits"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/glob/6.0.4/node_modules/minimatch",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/minimatch/3.0.4/node_modules/minimatch"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/glob/6.0.4/node_modules/once",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/once/1.4.0/node_modules/once"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/glob/6.0.4/node_modules/path-is-absolute",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/path-is-absolute/1.0.1/node_modules/path-is-absolute"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/https-proxy-agent/5.0.0/node_modules/agent-base",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/agent-base/6.0.2/node_modules/agent-base"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/https-proxy-agent/5.0.0/node_modules/debug",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/debug/4.3.1/node_modules/debug"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/inflight/1.0.6/node_modules/once",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/once/1.4.0/node_modules/once"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/inflight/1.0.6/node_modules/wrappy",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/wrappy/1.0.2/node_modules/wrappy"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/minimatch/3.0.4/node_modules/brace-expansion",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/brace-expansion/1.1.11/node_modules/brace-expansion"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/mkdirp/0.5.5/node_modules/minimist",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/minimist/1.2.5/node_modules/minimist"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/mv/2.1.1/node_modules/mkdirp",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/mkdirp/0.5.5/node_modules/mkdirp"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/mv/2.1.1/node_modules/ncp",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/ncp/2.0.0/node_modules/ncp"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/mv/2.1.1/node_modules/rimraf",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/rimraf/2.4.5/node_modules/rimraf"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/once/1.4.0/node_modules/wrappy",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/wrappy/1.0.2/node_modules/wrappy"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/rimraf/2.4.5/node_modules/glob",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/glob/6.0.4/node_modules/glob"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/@sentry/node",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/@sentry/node/5.29.2/node_modules/@sentry/node"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "common/temp/node_modules/bunyan",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/bunyan/1.8.15/node_modules/bunyan"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "logger/node_modules/@sentry/node",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/@sentry/node/5.29.2/node_modules/@sentry/node"
+    },
+    {
+      "kind": "folderLink",
+      "linkPath": "logger/node_modules/bunyan",
+      "targetPath": "common/temp/node_modules/.pnpm/registry.npmjs.org/bunyan/1.8.15/node_modules/bunyan"
+    }
+  ]
+}
