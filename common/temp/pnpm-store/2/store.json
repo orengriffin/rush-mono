@@ -1,54 +1,40 @@
 {
+	"local/%2FUsers%2Forengriffin%2Fdev%2Fmono-repo-rush-01%2Fcommon%2Ftemp%2Fprojects%2Fapp-core.tgz": [],
 	"local/%2FUsers%2Forengriffin%2Fdev%2Fmono-repo-rush-01%2Fcommon%2Ftemp%2Fprojects%2Flogger.tgz": [],
-	"registry.npmjs.org/bunyan/1.8.15": [
-		"/Users/orengriffin/dev/mono-repo-rush-01/common/temp/node_modules"
-	],
 	"registry.npmjs.org/cookie/0.4.1": [
 		"/Users/orengriffin/dev/mono-repo-rush-01/common/temp/node_modules"
 	],
-	"registry.npmjs.org/mkdirp/0.5.5": [
-		"/Users/orengriffin/dev/mono-repo-rush-01/common/temp/node_modules"
-	],
-	"registry.npmjs.org/mv/2.1.1": [
+	"registry.npmjs.org/bunyan/1.8.15": [
 		"/Users/orengriffin/dev/mono-repo-rush-01/common/temp/node_modules"
 	],
 	"registry.npmjs.org/safe-json-stringify/1.2.0": [
 		"/Users/orengriffin/dev/mono-repo-rush-01/common/temp/node_modules"
 	],
-	"registry.npmjs.org/rimraf/2.4.5": [
+	"registry.npmjs.org/mv/2.1.1": [
 		"/Users/orengriffin/dev/mono-repo-rush-01/common/temp/node_modules"
 	],
 	"registry.npmjs.org/lru_map/0.3.3": [
 		"/Users/orengriffin/dev/mono-repo-rush-01/common/temp/node_modules"
 	],
-	"registry.npmjs.org/tslib/1.14.1": [
-		"/Users/orengriffin/dev/mono-repo-rush-01/common/temp/node_modules"
-	],
 	"registry.npmjs.org/https-proxy-agent/5.0.0": [
-		"/Users/orengriffin/dev/mono-repo-rush-01/common/temp/node_modules"
-	],
-	"registry.npmjs.org/debug/4.3.1": [
-		"/Users/orengriffin/dev/mono-repo-rush-01/common/temp/node_modules"
-	],
-	"registry.npmjs.org/glob/6.0.4": [
-		"/Users/orengriffin/dev/mono-repo-rush-01/common/temp/node_modules"
-	],
-	"registry.npmjs.org/ms/2.1.2": [
-		"/Users/orengriffin/dev/mono-repo-rush-01/common/temp/node_modules"
-	],
-	"registry.npmjs.org/agent-base/6.0.2": [
 		"/Users/orengriffin/dev/mono-repo-rush-01/common/temp/node_modules"
 	],
 	"registry.npmjs.org/@sentry/minimal/5.29.2": [
 		"/Users/orengriffin/dev/mono-repo-rush-01/common/temp/node_modules"
 	],
-	"registry.npmjs.org/ncp/2.0.0": [
+	"registry.npmjs.org/tslib/1.14.1": [
 		"/Users/orengriffin/dev/mono-repo-rush-01/common/temp/node_modules"
 	],
-	"registry.npmjs.org/inflight/1.0.6": [
+	"registry.npmjs.org/rimraf/2.4.5": [
 		"/Users/orengriffin/dev/mono-repo-rush-01/common/temp/node_modules"
 	],
-	"registry.npmjs.org/dtrace-provider/0.8.8": [
+	"registry.npmjs.org/mkdirp/0.5.5": [
+		"/Users/orengriffin/dev/mono-repo-rush-01/common/temp/node_modules"
+	],
+	"registry.npmjs.org/agent-base/6.0.2": [
+		"/Users/orengriffin/dev/mono-repo-rush-01/common/temp/node_modules"
+	],
+	"file:projects/app-core.tgz": [
 		"/Users/orengriffin/dev/mono-repo-rush-01/common/temp/node_modules"
 	],
 	"file:projects/logger.tgz": [
@@ -72,10 +58,31 @@
 	"registry.npmjs.org/@sentry/tracing/5.29.2": [
 		"/Users/orengriffin/dev/mono-repo-rush-01/common/temp/node_modules"
 	],
+	"registry.npmjs.org/debug/4.3.1": [
+		"/Users/orengriffin/dev/mono-repo-rush-01/common/temp/node_modules"
+	],
+	"registry.npmjs.org/ms/2.1.2": [
+		"/Users/orengriffin/dev/mono-repo-rush-01/common/temp/node_modules"
+	],
+	"registry.npmjs.org/dtrace-provider/0.8.8": [
+		"/Users/orengriffin/dev/mono-repo-rush-01/common/temp/node_modules"
+	],
 	"registry.npmjs.org/nan/2.14.2": [
 		"/Users/orengriffin/dev/mono-repo-rush-01/common/temp/node_modules"
 	],
+	"registry.npmjs.org/moment/2.29.1": [
+		"/Users/orengriffin/dev/mono-repo-rush-01/common/temp/node_modules"
+	],
 	"registry.npmjs.org/minimist/1.2.5": [
+		"/Users/orengriffin/dev/mono-repo-rush-01/common/temp/node_modules"
+	],
+	"registry.npmjs.org/ncp/2.0.0": [
+		"/Users/orengriffin/dev/mono-repo-rush-01/common/temp/node_modules"
+	],
+	"registry.npmjs.org/glob/6.0.4": [
+		"/Users/orengriffin/dev/mono-repo-rush-01/common/temp/node_modules"
+	],
+	"registry.npmjs.org/inflight/1.0.6": [
 		"/Users/orengriffin/dev/mono-repo-rush-01/common/temp/node_modules"
 	],
 	"registry.npmjs.org/once/1.4.0": [
@@ -100,13 +107,6 @@
 		"/Users/orengriffin/dev/mono-repo-rush-01/common/temp/node_modules"
 	],
 	"registry.npmjs.org/path-is-absolute/1.0.1": [
-		"/Users/orengriffin/dev/mono-repo-rush-01/common/temp/node_modules"
-	],
-	"registry.npmjs.org/moment/2.29.1": [
-		"/Users/orengriffin/dev/mono-repo-rush-01/common/temp/node_modules"
-	],
-	"local/%2FUsers%2Forengriffin%2Fdev%2Fmono-repo-rush-01%2Fcommon%2Ftemp%2Fprojects%2Fapp-core.tgz": [],
-	"file:projects/app-core.tgz": [
 		"/Users/orengriffin/dev/mono-repo-rush-01/common/temp/node_modules"
 	]
 }
