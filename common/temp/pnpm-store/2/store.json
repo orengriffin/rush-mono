@@ -19,19 +19,13 @@
 	"registry.npmjs.org/https-proxy-agent/5.0.0": [
 		"/Users/orengriffin/dev/mono-repo-rush-01/common/temp/node_modules"
 	],
-	"registry.npmjs.org/@sentry/minimal/5.29.2": [
-		"/Users/orengriffin/dev/mono-repo-rush-01/common/temp/node_modules"
-	],
 	"registry.npmjs.org/tslib/1.14.1": [
 		"/Users/orengriffin/dev/mono-repo-rush-01/common/temp/node_modules"
 	],
-	"registry.npmjs.org/rimraf/2.4.5": [
+	"registry.npmjs.org/@sentry/minimal/5.29.2": [
 		"/Users/orengriffin/dev/mono-repo-rush-01/common/temp/node_modules"
 	],
 	"registry.npmjs.org/mkdirp/0.5.5": [
-		"/Users/orengriffin/dev/mono-repo-rush-01/common/temp/node_modules"
-	],
-	"registry.npmjs.org/agent-base/6.0.2": [
 		"/Users/orengriffin/dev/mono-repo-rush-01/common/temp/node_modules"
 	],
 	"file:projects/app-core.tgz": [
@@ -58,6 +52,9 @@
 	"registry.npmjs.org/@sentry/tracing/5.29.2": [
 		"/Users/orengriffin/dev/mono-repo-rush-01/common/temp/node_modules"
 	],
+	"registry.npmjs.org/agent-base/6.0.2": [
+		"/Users/orengriffin/dev/mono-repo-rush-01/common/temp/node_modules"
+	],
 	"registry.npmjs.org/debug/4.3.1": [
 		"/Users/orengriffin/dev/mono-repo-rush-01/common/temp/node_modules"
 	],
@@ -77,6 +74,9 @@
 		"/Users/orengriffin/dev/mono-repo-rush-01/common/temp/node_modules"
 	],
 	"registry.npmjs.org/ncp/2.0.0": [
+		"/Users/orengriffin/dev/mono-repo-rush-01/common/temp/node_modules"
+	],
+	"registry.npmjs.org/rimraf/2.4.5": [
 		"/Users/orengriffin/dev/mono-repo-rush-01/common/temp/node_modules"
 	],
 	"registry.npmjs.org/glob/6.0.4": [
